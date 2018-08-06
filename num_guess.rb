@@ -1,7 +1,7 @@
 require 'sinatra'
 require 'sinatra/reloader'
 
-NUM = rand(10)
+NUM = rand(101)
 
 def guess_check(guess)
     guess = guess.to_i
